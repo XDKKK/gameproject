@@ -26,7 +26,9 @@ void mouseCallback1(ObjectID Object, int x, int y, MouseAction action) {
 	else if (Object == entrance) enterScene(room2);
 	//Scene2 이벤트
 	else if (Object == npc1) {
-		showMessage("잘 찾아왔네!\n오늘은 재미있는 퍼즐을 준비해봤어\n말을 클릭해봐!");
+		showMessage("잘찾아왔네! 오늘 준비한 게임은 체스 말인 나이트로 모든 체스판을 이동하는 게임이야.\n한번 이동한 체스판은 붉은색으로 바뀌고, 다시 돌아올 수 없어!\n만약 더이상 이동할수 없다면, 게임오버야. 게임을 재실행해서 다시 날 찾아와줘.\n왼쪽의 말을 누르면 게임시작!!!");
+	
+			
 		showObject(horse);
 	}
 	else if (Object == horse) enterScene(GAMEROOM);
