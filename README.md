@@ -6,6 +6,7 @@
 초대장소로 이동했다면, 나이트의 여행을 시작합니다.
 
 ## 실제 게임 화면
+  ![game_example](https://user-images.githubusercontent.com/81098888/115061150-c1dba080-9f23-11eb-86a4-38caed9bdb35.png)
 
 ## 게임 진행 방법
 
