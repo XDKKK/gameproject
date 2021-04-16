@@ -2,10 +2,15 @@
 
 ## 간단한 게임 소개
 
+c언어와 방탈라이브러리 <bagntal.h>로 제작한 퍼즐 게임 입니다.
+
 누군가가 당신을 초대했습니다. 간단한 퀴즈를 풀고 초대장소로 이동하면 됩니다.   
 초대장소로 이동했다면, 나이트의 여행을 시작합니다.
 
 ## 실제 게임 화면
+  
+  ![game_example2](https://user-images.githubusercontent.com/81098888/115061518-3e6e7f00-9f24-11eb-96ec-474fad82763d.png)
+
   ![game_example](https://user-images.githubusercontent.com/81098888/115061150-c1dba080-9f23-11eb-86a4-38caed9bdb35.png)
 
 ## 게임 진행 방법
