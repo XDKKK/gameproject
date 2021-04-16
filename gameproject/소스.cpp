@@ -619,9 +619,7 @@ int main()
 
 	end = createObject("Images/end.png");
 	locateObject(end, room3, 100, 395);
-    showObject(end);
-
-
+	showObject(end);
 
 
 	startGame(room1);
