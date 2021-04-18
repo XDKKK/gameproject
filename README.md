@@ -35,6 +35,7 @@ _(***사운드 파일이 있어 소리를 적당히 조절 해 주십시오.)_
     다시 게임을 실행하여 초대자에게 가십시오.
 
 
-    <span style= "color:white">rkskddsds</span>
+## ex
+<span style= "color:red">rkskddsds</span>
 
 
