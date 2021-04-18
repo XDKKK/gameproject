@@ -249,7 +249,7 @@ void mouseCallback1(ObjectID Object, int x, int y, MouseAction action) {
 	}
 
 	else if (Object == restart) {
-		showMessage("더 이상 나이트를 움직일 수 없구나 . . .\n프로그램을 다시 실행한 뒤\n 나를 같은 방법으로 찾아와 봐. . .");
+		showMessage("더 이상 나이트를 움직일 수 없구나 . . .\n프로그램을 다시 실행한 뒤\n 나를 아까와 같은 방법으로 찾아와 봐. . .");
 	}
 
 	else if (Object == npc2) {
