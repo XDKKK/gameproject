@@ -183,7 +183,7 @@ void mouseCallback1(ObjectID Object, int x, int y, MouseAction action) {
 		for (i = 0; i < 15; i++) { hideObject(pt[i]); hideObject(wp[i]); }
 		wp[5] = 1;
 		setObjectImage(black[10], "Images/Red2.jpg"); locateObject(piece, GAMEROOM, k4, l4);
-		showObject(pt[7]); showObject(pt[9]); showObject(pt[12]); showObject(wp[8]); showObject(wp[9]); showObject(wp[1]); showObject(wp[13]);
+		showObject(pt[7]); showObject(pt[9]); showObject(pt[12]);  showObject(wp[9]); showObject(wp[1]); showObject(wp[13]);
 		j++;
 	}
 	else if (Object == wp[6]) {
@@ -627,7 +627,5 @@ void main()
 	end = createObject("Images/end.png");
 	locateObject(end, room3, 100, 395);
 	showObject(end);
-
-
 	startGame(room1);
 }
