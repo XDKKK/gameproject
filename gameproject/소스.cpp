@@ -1,4 +1,8 @@
 #include <bangtal.h>
+#include <Windows.h>
+#include <conio.h>
+#include <mmsystem.h>
+#pragma comment(lib,"winmm.lib")
 
 SceneID room1, room2, GAMEROOM, room3 ;
 ObjectID door1, door2, door3, door4, entrance, statue, keypad, stair, npc1, npc2, gameboard, horse, black[15], white[15], red1, red2, piece, pt[15], wp[15], restart, end;
@@ -284,12 +288,15 @@ void ObjectCallback1(ObjectID Object, EventID event) {
 		
 
 
-int main()
+void main()
 {
 
 	setGameOption(GameOption::GAME_OPTION_INVENTORY_BUTTON, false);
 	setGameOption(GameOption::GAME_OPTION_MESSAGE_BOX_BUTTON, false);
 	setGameOption(GameOption::GAME_OPTION_ROOM_TITLE, false);
+
+	PlaySound(TEXT("Soundfile.wav"), NULL, SND_ASYNC| SND_LOOP);
+	
 
 	setMouseCallback(mouseCallback1);
 	setObjectCallback(ObjectCallback1);
